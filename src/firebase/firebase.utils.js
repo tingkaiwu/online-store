@@ -2,16 +2,16 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config={
-    apiKey: "AIzaSyDAEZc1kqsemeJGSAtMIQHUUDAN7yNi1ug",
-    authDomain: "online-store-c2889.firebaseapp.com",
-    databaseURL: "https://online-store-c2889.firebaseio.com",
-    projectId: "online-store-c2889",
-    storageBucket: "online-store-c2889.appspot.com",
-    messagingSenderId: "184150331361",
-    appId: "1:184150331361:web:1c874230b298b78ba9cca0",
-    measurementId: "G-84EFCT18QG"
-}
+const config = {
+  apiKey: "AIzaSyDAEZc1kqsemeJGSAtMIQHUUDAN7yNi1ug",
+  authDomain: "online-store-c2889.firebaseapp.com",
+  databaseURL: "https://online-store-c2889.firebaseio.com",
+  projectId: "online-store-c2889",
+  storageBucket: "online-store-c2889.appspot.com",
+  messagingSenderId: "184150331361",
+  appId: "1:184150331361:web:1c874230b298b78ba9cca0",
+  measurementId: "G-84EFCT18QG"
+};
 
 firebase.initializeApp(config);
 
